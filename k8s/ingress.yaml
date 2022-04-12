@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
  name: sparkjava-ingress
- namespace: index
+ namespace: sparkjava
 spec:
  rules:
  - host: k8s-spark.devopscoursewithbalakonda.xyz
